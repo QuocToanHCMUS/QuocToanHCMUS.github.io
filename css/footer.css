@@ -1,0 +1,105 @@
+div#footer{
+    background-color: #291853;
+    color: white;
+    padding: 50px 40px 50px 40px;
+}
+footer{
+    width: 99%;
+}
+.footer{
+
+}
+.footer-about{
+   margin-bottom: 10px;
+}
+.footer-about .footer-logo{
+   margin-bottom: 10px;
+}
+.footer-about p{
+    margin-bottom: 10px;
+}
+.footer-widget h6{
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.footer-widget ul li{
+    line-height: 36px;
+    list-style: none;
+}
+
+.footer-widget ul li a{
+    color: white;
+    font-size: 15px;
+}
+.footer-widget ul li a:hover{
+    color: #e53637;
+}
+
+.footer-widget .footer-newslatter form{
+    position: relative;
+}
+.footer-widget .footer-newslatter form input{
+    width: 100%;
+    font-size: 15px;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    padding: 15px 0;
+    border-bottom: 2px solid white;
+}
+/*
+input.ft:focus{
+    outline: none;
+}
+*/
+a.a-ft:hover,
+a.a-ft:focus{
+    text-decoration: none;
+    outline: none;
+    color:white;
+}
+ul.ft{
+    padding-left: 0 !important;
+}
+
+footer-widget .footer-newslatter form input::placeholder{
+    color: #b7b7b7;
+}
+.footer-widget .footer-newslatter form button{
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    height: 100%;
+    background: transparent;
+    border:none;
+}
+.footer-copyright-text{
+    border-top: 1px solid rgba( 255, 255, 255, 8.1);
+    padding: 20px e;
+    margin-top: 40px;
+}
+
+.cot-2,.cot-3,.cot-4{
+    padding-top: 20px;
+}
+.footer-copyright-text p a{
+    color: red;
+    font-weight: 600;
+    
+}
+.footer-copyright-text p a:hover{
+    font-weight: 600;
+    color: rgb(41, 24, 83);
+    text-shadow: 0 0 5px white,
+                0 0 10px white,
+                0 0 20px white,
+                0 0 40px white,
+                0 0 80px white;   
+    
+}
+p.p-ft{
+    position: relative;
+    top: 33px;
+}

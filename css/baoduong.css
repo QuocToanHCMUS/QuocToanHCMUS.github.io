@@ -1,0 +1,121 @@
+.title-gallery h1{
+	font-size: 40px;
+    font-weight: 600;
+    margin: auto;
+    background-color: #291853;
+    color: white;
+    padding: 20px 0;
+}
+.title-gallery{
+    padding-top: 40px!important;
+}
+.items{
+    width: 100%!important;
+    display: flex!important;
+
+    margin: 0 auto;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+div.item-bd{
+    width: 33%!important;
+    height: 200px!important;
+    background-image: url("../images/Idemitsu_DIESEL_15W40.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 60% 100%;
+    padding-top: 10px;
+
+}
+.item-b{
+    background-image: url("../images/Castrol_Edge_5W30.jpg")!important;
+}
+.item-b:hover{
+    background-image:none!important;
+}
+.item-c{
+    background-image: url("../images/Mobil1_Advanced.jpg")!important;
+}
+.item-c:hover{
+    background-image:none!important;
+}
+.item-d{
+    background-image: url("../images/Idemitsu_0W20.png")!important;
+}
+.item-d:hover{
+    background-image:none!important;
+}
+.item-e{
+    background-image: url("../images/Motul_8100X.jpg")!important;
+}
+.item-e:hover{
+    background-image:none!important;
+}
+.item-f{
+    background-image: url("../images/Motul_8100X-CLEAN_5W40.jpg")!important;
+}
+.item-f:hover{
+    background-image:none!important;
+}
+.item-g{
+    background-image: url("../images/Mobil_5W30.jpg")!important;
+}
+.item-g:hover{
+    background-image:none!important;
+}
+.item-h{
+    background-image: url("../images/Castrol_GTX_Magnatec.jpg")!important;
+}
+.item-h:hover{
+    background-image:none!important;
+}
+
+.bd-large{
+    border: 3px solid rgb(41, 24, 83);
+    border-radius: 10px;
+}
+div.item-bd:hover{
+    width: 33%!important;
+    height: 200px!important;
+    background-color: rgb(41 24 83);
+    background-image:none;
+    background-size: 30% 50%;
+    /*visibility:hidden;*/
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.521),
+                0 0 4px rgba(0, 0, 0, 0.521),
+                0 0 6px rgba(0, 0, 0, 0.521),
+                0 0 8px rgba(0, 0, 0, 0.521),
+                0 0 16px rgba(0, 0, 0, 0.521);
+}
+.an{
+    visibility:hidden;
+}
+div.item-bd:hover .an{
+    visibility:visible;
+}
+.anh-bd{
+    width: 80%;
+}
+h2.an,p.mt_bd,button.an{
+    color:white;
+    font-weight: 600;
+}
+.add_bd{
+    color: rgb(41, 24, 83)!important;
+    border-radius: 5px;
+    padding: 2px;
+}
+.add_bd:hover{
+    background-color: rgb(41, 24, 83)!important;
+    color: white!important;
+    box-shadow: 0 0 5px white,
+                0 0 10px white,
+                0 0 20px white,
+                0 0 40px white,
+                0 0 80px white;   
+}
+#demos{
+}
