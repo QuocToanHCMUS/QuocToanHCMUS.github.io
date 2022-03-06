@@ -47,7 +47,7 @@
     width: 50%;
     padding: 45px 0 0 0;
     font-size: 20px;
-    border: 2px solid #291853;
+    border: none;
  }
  ul li a::before
 {
@@ -194,6 +194,7 @@ ul li a:hover::before
         width: 100%;
         text-align: center;
         padding: 0;
+	border: 2px solid #291853;
     }
     .nav-links li{
         display: block;
