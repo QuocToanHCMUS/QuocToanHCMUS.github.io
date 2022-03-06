@@ -247,9 +247,4 @@ ul li a:hover::before
     .swiper-button-prev::after{
         visibility: hidden;
     }
-    .footer-copyright-text p a{
-        position: relative!important;
-        display: flex!important;
-        left: 100px!important;
-    }
 }
