@@ -20,7 +20,7 @@
     overflow-x: auto;
 }
 div.item-bd{
-    width: 33%!important;
+    width: 30%;
     height: 200px!important;
     background-image: url("../images/Idemitsu_DIESEL_15W40.jpg");
     background-repeat:no-repeat;
