@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    background-color: rgb(41, 24, 83);
+    border-radius: 30px;
+}
+img{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.img-lg{
+    height: 100%!important;
+}
+.logo-lg{
+    width: 50%;
+    position: relative;
+    right: 14px;
+    z-index: 0;
+}
+.tt-lg{
+    color: white;
+}
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color:black;
+    color:white;
+    border-radius: 4px;
+    font-weight: bold;
+}
+.btn1:hover{
+    background-color: white;
+    border: 1px solid;
+    color: black;
+}
+.p-lg{
+    color: white;
+}
+.a-lg{
+    text-decoration: none;
+}
+.a-lg:hover{
+    color: red;
+}
