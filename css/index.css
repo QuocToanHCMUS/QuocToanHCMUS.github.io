@@ -4,6 +4,9 @@
     font-family: Helvetica;
     box-sizing: border-box;
 }
+h2{
+    font-size: 40px;
+}
 
 .header{
     height: 130px;
@@ -47,7 +50,7 @@
     width: 50%;
     padding: 45px 0 0 0;
     font-size: 20px;
-    border: 0px solid white;
+    border: none;
  }
  ul li a::before
 {
@@ -178,12 +181,17 @@ ul li a:hover::before
 #rong{
     height: 100px;
 }
+
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after
 {
     visibility: hidden;
 } 
 
+div.ul-tb{
+    visibility: hidden;
+    width: 0%;
+}
 @media only screen and (max-width:500px)
 {
     html,
@@ -202,10 +210,11 @@ ul li a:hover::before
         width: 100%;
     }
     .ul{
-        width: 100%;
+        width: 100%!important;
         text-align: center;
         padding: 0;
-	border: 2px solid #291853;
+        border: 2px solid #291853;
+        visibility: visible!important;
     }
     .nav-links li{
         display: block;
@@ -261,4 +270,60 @@ ul li a:hover::before
     .swiper-button-prev::after{
         visibility: hidden;
     }
+    
+
+    .footer-copyright-text p a{
+        position: relative;
+        display: flex;
+        left: 100px;
+    }
+
+
+    div.ul-tb{
+        visibility: hidden!important;
+        width: 0%!important;
+    }
+}
+@media only screen and (max-width:900px)
+{
+    html,
+    body{
+      width: 100% !important;;
+      overflow-x:hidden!important;
+    }
+    div.ul-tb{
+        visibility: visible;
+        width: 10%;
+    }
+    ul.ul{
+        visibility: hidden;
+        width: 0%;
+    }
+    ul.li-tb{
+        font-size: 20px!important;
+        background-color: #29185378;
+    }
+    .logo{
+        width: 50%;
+    }
+    .btn-tb{
+        position: relative!important;
+        top: 64px!important;
+        background-color: #291853!important;
+        font-size: 20px!important;
+        padding: 2px 32px!important;
+        border-radius: 5px!important;
+    }
+    .sign-in-li{
+        position: relative;
+        top: 20px;
+    }
+    .btn-li-tb{
+        color: white!important;
+    }
+    .btn-li-tb:hover{
+        width: 150%;
+        background-color: #291853!important;
+    }
+    
 }
