@@ -111,11 +111,11 @@ h2.an,p.mt_bd,button.an{
 .add_bd:hover{
     background-color: rgb(41, 24, 83)!important;
     color: white!important;
-    box-shadow: 0 0 5px white,
-                0 0 10px white,
-                0 0 20px white,
-                0 0 40px white,
-                0 0 80px white;   
+    box-shadow: 0 0 1px white, 
+                0 0 1px white, 
+                0 0 1px white, 
+                0 0 1px white, 
+                0 0 1px white;    
 }
 #demos{
 }
