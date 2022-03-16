@@ -178,8 +178,19 @@ ul li a:hover::before
 #rong{
     height: 100px;
 }
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after
+{
+    visibility: hidden;
+} 
+
 @media only screen and (max-width:500px)
 {
+    html,
+    body{
+      width:100%;
+      overflow-x:hidden;
+    }
     video{
         visibility:hidden;
     }
